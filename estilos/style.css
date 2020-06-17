@@ -1,0 +1,77 @@
+/*tudo em * aplica a tudo */
+*{/*soft resete do css */
+    /*essa parte foi feita para retirar o elemento a baixo*/
+    margin: 0;
+    padding: 0;/* borda interna */
+    box-sizing: border-box;/* começa a contar o tamanho do elemento dá borda interna*/
+
+}
+html {
+    scroll-behavior: smooth; /*faz com que o botão de volta ao topo fique suavisada*/
+}
+body {
+    background-image: url('');  
+    background-size: auto 100vh;/*100 do tamanho total dá tela */
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100vh;
+    font-size: 12px;
+    /*background-repeat: no-repeat;*/
+    
+  }
+
+  header {
+    height: 100vh;
+    display: flex;/*ajuda ficar responsivo*/
+    justify-content: center;/*centralisa horizontalmente o conteudo*//*so funciona por conta do  flex*/
+    align-items: center;/*centaliza verticalmente, so funciona no flex*/
+}
+
+.menu {
+    background-color:whitesmoke ;
+    position: fixed;
+    width: 100vw;
+    top: 0;/* cola ele no topo do navegador que so funciona com o position declarado*/
+    z-index: 1;/*altera a prioridade do eixo z */
+}
+
+.menu ul {
+    display: flex;/* forma coluna ^^*/
+    justify-content: space-around;/*dá espassamento dentre as colunas */
+    
+}
+
+/*seleciona todas as li dentro do elemento menu
+o nome é seletor 'hieraquico'*/
+.menu li {
+    list-style: none;
+
+}
+.menu a {/*link do menu*/
+    
+    display: block;/*transforma em um quadrado que quebra linha*/
+    padding: 10px 20px;
+    transition: background-color 1s, color 1s;/*fala quais propiedades nos queremo mudar,e diz quanto tempo o vai levar a transi...*/
+}
+.menu a:active,
+.menu a:hover {
+    background-color:rgb(0, 0, 0);
+    color: whitesmoke;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+} 
+footer a {
+    color: black;
+    font-size: 2em;
+}
