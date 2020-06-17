@@ -66,15 +66,15 @@ a:hover {
     text-decoration: underline;
 }
 
-.site-sutitle1,
-.site-sutitle2,/*dessa forma o estilo vai para o titulo e para o subtitulo*/
-.site-title {
+.title,
+.site-sutitle,/*dessa forma o estilo vai para o titulo e para o subtitulo*/
+.titulos {
     color: whitesmoke;
     text-align: center;
 
 }
-.site-title { 
-    font-size: 4em;/*4x o tamanho do body*/
+.titulos { 
+    font-size: 1em;/*4x o tamanho do body*/
     font-family: 'Teko', sans-serif;
 }
 .title,
