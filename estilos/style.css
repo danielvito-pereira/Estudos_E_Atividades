@@ -10,7 +10,7 @@ html {
     scroll-behavior: smooth; /*faz com que o botão de volta ao topo fique suavisada*/
 }
 body {
-    background-image: url('/imagens/background-869603_1280.png');  
+    background-image: url('/imagens/background-1156435.png');  
     background-size: auto 100vh;/*100 do tamanho total dá tela */
     font-family: 'Source Sans Pro', sans-serif;
     height: 100vh;
@@ -66,7 +66,23 @@ a:hover {
     text-decoration: underline;
 }
 
+.site-sutitle1,
+.site-sutitle2,/*dessa forma o estilo vai para o titulo e para o subtitulo*/
+.site-title {
+    color: whitesmoke;
+    text-align: center;
 
+}
+.site-title { 
+    font-size: 4em;/*4x o tamanho do body*/
+    font-family: 'Teko', sans-serif;
+}
+.title,
+.site-sutitle {
+    font-style: italic;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.5em;
+}
 .conteudo {
     display: grid;
    background-color: rgb(255, 255, 255);
