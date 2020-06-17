@@ -66,6 +66,16 @@ a:hover {
     text-decoration: underline;
 }
 
+
+.conteudo {
+    display: grid;
+   background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
 footer{
     display: flex;
     background-color: whitesmoke;
