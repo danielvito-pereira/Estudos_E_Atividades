@@ -10,7 +10,7 @@ html {
     scroll-behavior: smooth; /*faz com que o botão de volta ao topo fique suavisada*/
 }
 body {
-    background-image: url('');  
+    background-image: url('/imagens/background-869603_1280.png');  
     background-size: auto 100vh;/*100 do tamanho total dá tela */
     font-family: 'Source Sans Pro', sans-serif;
     height: 100vh;
